@@ -1,7 +1,8 @@
-package main
+package app
 
 import (
 	"bytes"
+
 	"github.com/dgraph-io/badger"
 	abcitypes "github.com/tendermint/tendermint/abci/types"
 )
@@ -11,13 +12,10 @@ type KVStoreApplication struct {
 	currentBatch *badger.Txn
 }
 
-
-
 //var _ abcitypes.Application = (*KVStoreApplication)(nil)
 func NewKVStoreApplication(db *badger.DB) *KVStoreApplication {
-	return &KVStoreApplication{db,nil}
+	return &KVStoreApplication{db, nil}
 }
-
 
 func (app *KVStoreApplication) isValid(tx []byte) (code uint32) {
 	// check format
@@ -50,6 +48,7 @@ func (app *KVStoreApplication) isValid(tx []byte) (code uint32) {
 
 	return code
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 func (app *KVStoreApplication) CheckTx(req abcitypes.RequestCheckTx) abcitypes.ResponseCheckTx {
 	code := app.isValid(req.Tx)
@@ -123,6 +122,7 @@ func (KVStoreApplication) InitChain(req abcitypes.RequestInitChain) abcitypes.Re
 func (KVStoreApplication) EndBlock(req abcitypes.RequestEndBlock) abcitypes.ResponseEndBlock {
 	return abcitypes.ResponseEndBlock{}
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 func (app *KVStoreApplication) ListSnapshots(snapshots abcitypes.RequestListSnapshots) abcitypes.ResponseListSnapshots {
@@ -140,5 +140,3 @@ func (app *KVStoreApplication) LoadSnapshotChunk(chunk abcitypes.RequestLoadSnap
 func (app *KVStoreApplication) ApplySnapshotChunk(chunk abcitypes.RequestApplySnapshotChunk) abcitypes.ResponseApplySnapshotChunk {
 	panic("implement me")
 }
-
-
