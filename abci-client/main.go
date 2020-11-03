@@ -20,6 +20,8 @@ import (
 	"github.com/tendermint/tendermint/p2p"
 	"github.com/tendermint/tendermint/privval"
 	"github.com/tendermint/tendermint/proxy"
+	
+	. "github.com/FL-chain-lab-dev/app"
 )
 
 var configFile string
