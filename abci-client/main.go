@@ -8,6 +8,7 @@ import (
 	"os/signal"
 	"path/filepath"
 	"syscall"
+	"time"
 
 	"github.com/dgraph-io/badger"
 	"github.com/spf13/viper"
@@ -21,13 +22,15 @@ import (
 	"github.com/tendermint/tendermint/privval"
 	"github.com/tendermint/tendermint/proxy"
 	
-	. "github.com/FL-chain-lab-dev/app"
+	//. "github.com/FL-chain-lab-dev/app"
 )
 
 var configFile string
 
 func init() {
-	flag.StringVar(&configFile, "config", "$HOME/.tendermint/config/config.toml", "Path to config.toml")
+	fmt.Println("Reading from : " + os.Getenv("HOME")+"/.tendermint/config/config.toml")
+	time.Sleep(1 * time.Second)
+	flag.StringVar(&configFile, "config", os.Getenv("HOME")+"/.tendermint/config/config.toml", "Path to config.toml")
 }
 
 func main() {

@@ -85,7 +85,8 @@ RUN apt-get update && apt-get -y upgrade &&\
     apt-get install -y apt-utils openssh-server software-properties-common &&\
     apt-get install -y autotools-dev automake curl git wget zip build-essential gcc pkg-config net-tools jq nano 
 
-RUN cd / &&\
+RUN mkdir -p $GOPATH/src/github.com/tendermint &&\
+    cd $GOPATH/src/github.com/tendermint  &&\
     git clone -b v0.34.0-rc5 --single-branch https://github.com/tendermint/tendermint.git &&\
     cd tendermint &&\
     make tools &&\
