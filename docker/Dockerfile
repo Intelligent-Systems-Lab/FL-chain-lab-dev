@@ -87,7 +87,7 @@ RUN apt-get update && apt-get -y upgrade &&\
 
 RUN mkdir -p $GOPATH/src/github.com/tendermint &&\
     cd $GOPATH/src/github.com/tendermint  &&\
-    git clone -b v0.34.0-rc5 --single-branch https://github.com/tendermint/tendermint.git &&\
+    git clone -b v0.33.8 --single-branch https://github.com/tendermint/tendermint.git &&\
     cd tendermint &&\
     make tools &&\
     make install
