@@ -1,0 +1,1 @@
+sudo go build -o kv-buildin  main.go app.go
