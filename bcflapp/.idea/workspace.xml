@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e3a1f68-7817-405c-9b68-b6bd53220126" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/app.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/encoding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/export.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/genesis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/params/encoding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/params/proto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/prefix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/app/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/cmd/bc-appd/cmd/app.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/cmd/bc-appd/cmd/genaccounts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/cmd/bc-appd/cmd/root.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/cmd/bc-appd/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/install_starport.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/internal/tools/tools.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/proto/cosmos/base/query/v1beta1/pagination.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/scripts/protocgen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/confio/proofs.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/cosmos_proto/cosmos.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/gogoproto/gogo.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/google/api/annotations.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/google/api/http.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/google/api/httpbody.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/google/protobuf/any.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/google/protobuf/descriptor.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/abci/types.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/crypto/keys.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/crypto/proof.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/libs/bits/types.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/types/evidence.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/types/params.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/types/types.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/types/validator.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BCFL-demo/bc-app/third_party/proto/tendermint/version/types.proto" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/lib/go-1.15" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1lEO8NrJAUR9UF7GR1MZ734dGip" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
